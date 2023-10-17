@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "obsidian-move-tabs",
+	"name": "Move Tabs",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "This is a sample plugin for Obsidian. This plugin demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "A tiny Obsidian plugin to move tabs between panes",
+	"author": "Prescott",
+	"authorUrl": "https://presco.tt",
+	"fundingUrl": "https://presco.tt",
 	"isDesktopOnly": false
 }
