@@ -2,6 +2,14 @@
 
 This plugin adds commands to move the currently focused editor tab to the pane to its left, right, bottom, or top. If no such pane exists, nothing will happen.
 
+It's mostly for my own use so install at your own risk. PRs or suggestions welcome!
+
+## Installation
+
+1. Clone this repo into your `<vault>/.obsidian/plugins` directory
+2. Enable the plugin: `preferences → Community plugins → toggle slider for "Move Tabs"`
+3. (Optional) bind hotkeys to the commands.
+
 ## Known issues
 
 - The command palette always displays all four options, even if there is no pane in a given direction
