@@ -1,8 +1,17 @@
-/*
+.movetabs-hint {
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+  font-weight: var(--font-semibold);
+  position: absolute;
+  z-index: var(--layer-tooltip);
+  padding: 0 var(--size-4-1);
+  margin: var(--size-2-1);
+  line-height: var(--line-height-tight);
+  border-radius: var(--radius-s);
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
-
-If your plugin does not need CSS, delete this file.
-
-*/
+/* Hints appearing in sliding panes/stacked mode */
+.mod-stacked .movetabs-hint {
+  transform: rotate(270deg);
+  padding: var(--size-4-1) 0;
+}
