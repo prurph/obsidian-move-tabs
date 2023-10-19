@@ -18,8 +18,9 @@ This plugin adds a few commands to move tabs between panes. They are:
 ### Manual
 
 1. Clone this repo into your `<vault>/.obsidian/plugins` directory
-2. Enable the plugin: `preferences → Community plugins → toggle slider for "Move Tabs"`
-3. (Optional) bind hotkeys to the commands.
+2. In `plugins/obisidian-move-tabs`: `npm install && npm run build`
+3. Enable the plugin: `preferences → Community plugins → toggle slider for "Move Tabs"`
+4. (Optional) bind hotkeys to the commands.
 
 ### Through community plugins
 
